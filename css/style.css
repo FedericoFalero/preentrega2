@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: black;
+    padding: 40px;
+    text-align: center;
+    margin: 100px;
+    border: 20px outset grey;
+}
+
+h2 {color: black;
+    padding: 40px;
+    text-align: center;
+    margin: 60px 40px 60px 40px;
+}
+
+h3{color: violet;
+    padding: 40px;
+    text-align: center;
+    margin: 30px 15px 30px 15px;
+    margin-left: 50px;
+}
+
+p{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    border: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    color: black;
+    background-color: darkgray;
+    align-content: center;
+    justify-content: center;
+}
+
+.segundo.parrafo{
+    font-family:'Roboto', sans-serif;
+    font-style: italic;
+    line-height: 35px;
+    letter-spacing: 10px;
+}
+
+#color{
+    color: darkblue;
+}
+
+
+a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+
+section{
+    background-color: whitesmoke;
+}
+
+body{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    background-color: darkgrey;
+    font-weight: bolder;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+header{
+    background-color:rgba(76, 0, 130, 0.691);
+    padding: 30px;
+    
+}
+
+img{
+    margin-top: 100px;
+    margin-left: 40px;
+    border:none
+}
+
+footer{
+    padding: 80px;
+    margin-top: 200px;
+    background-color: darkmagenta;
+    margin-bottom: 0;
+}
+
+.header img{
+    position: relative;
+    bottom: 120px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: none
+    }
+
+.personaje img{
+    position:relative;
+    bottom: 120px;
+    float: center;
+    width:400px;
+    height: 500px;
+    margin-top: 300px;
+    margin-left: 400px;
+    border-radius: 30px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border: 100px;
+    flex-direction: row
+    flex ;
+}
+
+.personaje p{
+    position: relative;
+    bottom: 120px;
+    margin-left: 150px;
+    margin-right: 100px;
+    float: center;
+    text-align: center;
+}
+
+.opiniones img{
+    position: relative;
+    bottom: 120px;
+    float: center;
+    width:500px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 30px;
+}
+
+.opiniones h2{
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 100px;
+    float: center;
+    text-align: center;
+}
+
+.opiniones p{
+    position: relative;
+    bottom: 120px;
+    margin-left: 150px;
+    margin-right: 100px;
+    float: center;
+    text-align: center;
+}
+
+.novedades img{
+    position:relative;
+    bottom: 120px;
+    float: center;
+    width:800px;
+    height: 500px;
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 250px;
+    border-style: groove;
+    border-color: blueviolet;
+}
+
+.novedades h2{
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 100px;
+    float: center;
+    text-align: center;
+}
+
+
+body{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    background-color: darkgrey;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    font-size: large;
+    display: grid;
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    padding: 3em;
+    background-color: blueviolet;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+}
+
+header {
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.novedades{
+    grid-area: novedades;
+}
+
+@media (min-width:500px){
+    .estructura{
+        margin: 0;
+        grid-template-columns: auto;
+        grid-template-areas:     
+        "header header"
+        "nav nav"
+        "titulo"
+        "novedades"
+        "footer footer" ;
+    }
+    }
+
+    @media (min-width:768px)
+        .estructura{
+            margin-bottom: 1.5em
+        }
+
+nav ul {
+border: 2px solid purple;
+}
+
+@media (min-width: 1024px){
+    body{
+        background-color: cadetblue;
+    }
+}
+
+.novedades img{
+    position:relative;
+    bottom: 120px;
+    float: center;
+    width:800px;
+    height: 500px;
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 250px;
+    border-style: groove;
+    border-color: blueviolet;
+}
+
+.header img{
+    position: relative;
+    bottom: 120px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: none
+    }
+
+    .container{
+        height: 100vh;
+    }
+
+    .flex{
+        width: 120px;
+        height: 120px;
+        background-color: skyblue;
+        border: 2px solid black;
+        }
+        .container{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items
+        }
+
+        .opiniones{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        }
+        
+        .opiniones img{
+        max-width: 400px;
+        padding: 1rem;
+        }
+        .personaje{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        }
+        
+        .personaje img{
+        max-width: 400px;
+        padding: 1rem;
+        }
