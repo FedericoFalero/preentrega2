@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
+p {
+  color: black;
+  font-size: 2em;
+  line-height: 2.2em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.estructura {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.estructura ul {
+  list-style: none;
+}
+.estructura ul li {
+  margin-right: 10px;
+}
+.estructura ul li a {
+  color: violet;
+  font-size: 1em;
+  text-decoration: none;
+}
+.estructura ul li a:hover {
+  color: black;
+}/*# sourceMappingURL=main.css.map */

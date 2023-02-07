@@ -1,0 +1,22 @@
+//nesting
+.estructura{
+    background-color: $mainColor;
+    display: flex;
+    justify-content: space-between;
+    ul{
+        list-style: none;
+        li{
+            margin-right: 10px;
+            a{
+                color: $keyColor;
+                font-size: $fontSm;
+                text-decoration: none;
+
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
